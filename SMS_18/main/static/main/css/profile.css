@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e3e3e3;
+	font-family: 'Montserrat';
+}
+
+/*.header{
+	position: fixed;
+	width: 100%;
+	height: 126px;
+	display: flex;
+	z-index: 2;
+	color: white;
+}
+.profile:nth-child(1) {
+	font-size: 20px;
+}
+
+.title {
+	width: 100%;
+	height: 100px;
+}
+.profile{
+	height: 100px;
+	width: 100%;
+	background: #0091EA;
+}
+
+.navbar{
+	position: absolute;
+	top: 75px;
+	width: 100%;
+	height: 51px;
+	background: #E1F5FE;
+	display: flex;
+	justify-content: space-around;
+}
+
+.user{
+	height: 75px;
+	float: left;
+	background: white;
+	text-align: center;
+	line-height: 75px;
+	background: #0091EA;
+}
+
+.user1 {
+	width: 30%;
+}
+.user2{
+	width: 70%;
+}
+
+.user a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+.user a:hover {
+	text-decoration: none;
+	color: #e3e3e3;
+}
+
+
+
+.nav{
+	padding: 0 5px;
+	margin-top: 2.5px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 15px;
+	transition: background 300ms;
+	cursor: pointer;
+}
+
+.hamburgerIcon {
+	cursor: pointer;
+	font-size: 30px;
+	position: absolute;
+	right: 1.5vw;
+	top: -3px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	flex-basis: 50%;
+	font-size: 3vh;
+}
+.navbar a:hover {
+	color: black;
+}
+
+.nav:hover:not(.active){
+	background: rgba(0, 176, 255, 0.5);
+}
+
+.active{
+	background: #00B0FF;
+}*/
+
+.main{
+	position: absolute;
+	top: 126px;
+	width: 100%;
+	/*height: 100%;*/
+	background: #e3e3e3;
+	height: 100%;
+	font-size: 2.2vh;
+}
+
+/*.main:nth-child(1) {
+	height: 200px;
+}*/
+
+.stock {
+	height: 10vh;
+	background: #ffffff;
+	border-radius: 0px;
+	margin: 0.5vh 0;
+	line-height: 10vh;
+	transition: height 300ms;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 1vh auto;
+	box-shadow: 2px 2px 2px 2px #9e9e9e;
+	font-size: 18px;
+}
+
+.profile-details {
+	flex-basis: 25%;
+	height: 10vh;
+}
+
+
+.percentChange, .percentChangeDown {
+	line-height: 12vh;
+	font-size: 10px;
+	color: red;
+}
+
+.percentChangeDown {
+	color: green;
+}
+
+
+
+
+
+
+
+
